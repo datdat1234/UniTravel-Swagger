@@ -32,7 +32,7 @@ export class AppController {
 }
 
 @ApiTags('User')
-@Controller('/v1/user')
+@Controller('/v1/users')
 export class UserController {
 
   @ApiOkResponse({
@@ -65,7 +65,7 @@ export class UserController {
 }
 
 @ApiTags('Route')
-@Controller('/v1/route')
+@Controller('/v1/routes')
 export class RouteController {
 
   @ApiOkResponse({
